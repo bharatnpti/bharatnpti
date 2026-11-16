@@ -1,0 +1,19 @@
+README.md
+  s_8f660b2248a8f6::t_35c56ba88c7739 11,22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "70658eeb648090f51321aab14da5d3b75cb7be04",
+  "prompts": {},
+  "sessions": {
+    "s_8f660b2248a8f6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_8f660b2248a8f6",
+        "model": "unknown"
+      },
+      "human_author": "CICD <cicd@oneai.telekom.de>"
+    }
+  }
+}
