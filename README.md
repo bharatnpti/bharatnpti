@@ -23,5 +23,5 @@ AI engineering leader. I build production GenAI platforms: LLM and RAG platforms
 
 #### Stack
 
-**GenAI:** LangGraph · LangChain · Spring AI · LangChain4j · Claude Agent SDK · MCP · RAG · Qdrant · Neo4j · OpenSearch · Ollama · OpenTelemetry
-**Backend:** Java · Kotlin · Python · Spring Boot · Quarkus · Kafka · Kubernetes · Temporal · PostgreSQL · Redis
+- **GenAI:** LangGraph · LangChain · Spring AI · LangChain4j · Claude Agent SDK · MCP · RAG · Qdrant · Neo4j · OpenSearch · Ollama · OpenTelemetry
+- **Backend:** Java · Kotlin · Python · Spring Boot · Quarkus · Kafka · Kubernetes · Temporal · PostgreSQL · Redis
