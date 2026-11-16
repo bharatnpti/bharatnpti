@@ -1,0 +1,19 @@
+README.md
+  s_0f7b3855103709::t_1230528467c9ca 26-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "32cf1b7c7aaf5eaa6715468a17a3a8ae4a8cccd9",
+  "prompts": {},
+  "sessions": {
+    "s_0f7b3855103709": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_0f7b3855103709",
+        "model": "unknown"
+      },
+      "human_author": "CICD <cicd@oneai.telekom.de>"
+    }
+  }
+}
