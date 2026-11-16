@@ -8,7 +8,7 @@ AI engineering leader. I build production GenAI platforms: LLM and RAG platforms
 
 - **[OpenProgram](https://github.com/bharatnpti/OpenProgram)**: an agentic program-management system. It collects delivery status through short conversational check-ins in Slack, cross-checks the answers against Jira, Git and calendar signals, and rolls them up from task to program. [Demo video](https://github.com/bharatnpti/OpenProgram#demo-videos).
 - **[langgraph-write-ownership](https://github.com/bharatnpti/langgraph-write-ownership)**: a minimal reproduction of checkpoint corruption caused by concurrent writers in LangGraph, plus a proposed conformance capability, filed upstream.
-- **[lmos-cli](https://github.com/bharatnpti/lmos-cli)**: a Kotlin and Quarkus CLI for Eclipse LMOS. It creates, installs, lists and chats with agents, and manages LLM configs with credentials kept in the macOS keychain.
+- **[lmos-cli](https://github.com/bharatnpti/lmos-cli)**: a prototype CLI for Eclipse LMOS in Kotlin, Quarkus and Picocli. It scaffolds Arc agent projects and keeps LLM configs in the macOS keychain behind a pluggable credential-manager interface.
 - **[mattermost-spring-mcp](https://github.com/bharatnpti/mattermost-spring-mcp)**: an MCP server, built on Spring AI, that lets LLM agents read users, post, reply in threads and open DMs in Mattermost.
 
 #### Open source
@@ -19,7 +19,7 @@ AI engineering leader. I build production GenAI platforms: LLM and RAG platforms
   configurable CORS ([#71](https://github.com/eclipse-lmos/lmos-runtime/pull/71)),
   and tool calling for Ollama in Arc ([arc#91](https://github.com/eclipse-lmos/arc/pull/91)).
 - **[Parlant](https://github.com/emcie-co/parlant)**: Azure AD authentication for the Azure OpenAI service ([#564](https://github.com/emcie-co/parlant/pull/564)).
-- **[WireMock](https://github.com/wiremock/wiremock)**: exposed `MappingsSource` as an extension point ([#2334](https://github.com/wiremock/wiremock/pull/2334)) and documented it ([wiremock.org#181](https://github.com/wiremock/wiremock.org/pull/181)).
+- **[WireMock](https://github.com/wiremock/wiremock)** (7.4k★, the standard Java HTTP-mocking library): proposed ([#2331](https://github.com/wiremock/wiremock/issues/2331)) and built ([#2334](https://github.com/wiremock/wiremock/pull/2334)) the `MappingsLoaderExtension` extension point, shipped in [WireMock 3.2.0](https://github.com/wiremock/wiremock/releases/tag/3.2.0). Teams can now load stub mappings from Git, a database or any other source through a plugin, instead of forking WireMock. I also wrote the official guide, [Adding a mappings loader](https://wiremock.org/docs/extensibility/adding-mappings-loader/) ([wiremock.org#181](https://github.com/wiremock/wiremock.org/pull/181)).
 
 #### Stack
 
